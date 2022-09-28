@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-define("PHPMailerEMAIL","ahmadsmadi873@gmail.com");
-define("PHPMailerPASSWORD","flgynslrllefxxen");
+define("PHPMailerEMAIL","");//your gmail
+define("PHPMailerPASSWORD","");//your password
 define("MAXStorageForOneUser",15);//15mb  15000000
 define('UPLOADFilesPATH','uploads/');
 
