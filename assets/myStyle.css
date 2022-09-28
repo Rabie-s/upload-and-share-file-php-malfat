@@ -1,0 +1,82 @@
+:root{
+    --color1:#b02600;
+    --color1Hover:#942203;
+
+    --color2:#9A7B54;
+    --color2Hover:#8d704c;
+}
+
+body{
+    background-image: url("bg-2.jpg");
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.myColor1{
+    color: var(--color1) !important;
+}
+
+.myColor1:hover{
+    color: var(--color1Hover) !important;
+}
+
+.myColor2{
+    color: var(--color2) !important;
+
+}
+
+.myColor2:hover{
+    color: var(--color2Hover) !important;
+
+}
+
+
+.myBg1{
+    background-color: var(--color1) !important;
+    color: #ffffff !important;
+    
+}
+
+.myBg1:hover{
+    background-color: var(--color1Hover) !important;
+}
+
+
+.myBg2{
+    background-color: var(--color2) !important;
+    color: #ffffff !important;
+}
+
+.myBg2:hover{
+    background-color: var(--color2Hover) !important;
+}
+
+
+.myCard{
+  /*  max-width: 40vw !important; */
+    min-width: 40vw !important;
+    box-shadow: 10px 10px 5px #4d4949;
+
+}
+
+.form-group input:focus{
+    border-color: var(--color1) !important;
+    box-shadow:0 0 8px 0 var(--color1) !important;
+}
+
+.form-group .form-check .form-check-input:checked{
+    background-color: var(--color1);
+}
+
+
+
+
+@media (max-width:900px) {
+    .myCard{
+        /*  max-width: 40vw !important; */
+          min-width: 80vw !important;
+         
+      
+      }
+}
+
+
