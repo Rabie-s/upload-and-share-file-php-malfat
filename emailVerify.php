@@ -1,6 +1,7 @@
 <?php
 require_once('core/init.php');
 require_once('inc/header.php');
+titleChanger("Email verify");//page title
 require_once('inc/nav.php');
 
 if(isset($_SESSION['id']) and isset($_SESSION['name']) and isset($_SESSION['email']) and !empty($_SESSION)){

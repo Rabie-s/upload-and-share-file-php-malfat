@@ -1,6 +1,7 @@
 <?php
 require_once('core/init.php');
 require_once('inc/header.php');
+titleChanger("My profile");//page title
 require_once('inc/nav.php');
 
 checkSession(BU . "login.php");
