@@ -5,7 +5,7 @@ class connect
     private static $DB_HOST = 'localhost';
     private static $DB_USER = 'root';
     private static $DB_PASS = '';
-    private static $DB_NAME = 'malfat';
+    private static $DB_NAME = 'upload-and-share-file-php-malfat';
     public static $db;
 
 

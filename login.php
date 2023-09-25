@@ -97,11 +97,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST["submit"])) {
             </div>
 
             <div class="form-group m-3 text-center">
-                <label class="d-block"><a class="myColor2" href="<?php echo BU." register.php"; ?>">Create new account</a><label>
+                <label class="d-block"><a class="myColor2" href="<?php echo BU."register.php"; ?>">Create new account</a><label>
             </div>
 
             <div class="form-group m-3 text-center">
-                <label><a class="myColor2" href="<?php echo BU." emailVerify.php"; ?>">Forget your password?</a><label>
+                <label><a class="myColor2" href="<?php echo BU."emailVerify.php"; ?>">Forget your password?</a><label>
             </div>
 
         </form>

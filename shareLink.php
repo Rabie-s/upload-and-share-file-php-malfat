@@ -26,7 +26,7 @@ checkSession(BU . "login.php");
 
         <div class="card-body">
             <h3 class="card-title"><?php echo base64_decode($_GET['file_name']); ?></h3>
-            <div id="shareLink" class="card-title" style="white-space: nowrap; overflow: hidden;text-overflow: ellipsis;width:200px;"><?php echo "https://" . DOMINEName . "/filler/app/download.php?unique_name=" . $_GET['unique_name'] . "&user_id=" . $_GET['user_id'] . "&file_name=" . $_GET['file_name'] . "&is_public=" . $_GET['is_public'] . ""; ?></div>
+            <div id="shareLink" class="card-title" style="white-space: nowrap; overflow: hidden;text-overflow: ellipsis;width:200px;"><?php echo BU."download.php?unique_name=" . $_GET['unique_name'] . "&user_id=" . $_GET['user_id'] . "&file_name=" . $_GET['file_name'] . "&is_public=" . $_GET['is_public'] . ""; ?></div>
         </div>
 
         <div class="m-3 d-grid gap-2">

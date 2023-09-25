@@ -41,7 +41,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST["submit"])) {
     array_push($errorsMsg, "Please choose a file.");
   } elseif (!$file->checkUserMaxStorage($_SESSION['id'], MAXStorageForOneUser)) {
     array_push($errorsMsg, "you don't have Enough storage.");
-    echo $file->fetchUserStorage($_SESSION['id']);
   } elseif ($fileSize > MAXStorageForOneUser) {
     array_push($errorsMsg, "you don't have Enough storage.");
   } else {
